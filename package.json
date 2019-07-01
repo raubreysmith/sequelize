@@ -1,0 +1,25 @@
+{
+  "name": "aubit.sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^11.9.4",
+    "@types/sequelize": "^4.27.37",
+    "sequelize": "^4.42.0"
+  }
+}

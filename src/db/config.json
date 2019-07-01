@@ -1,0 +1,37 @@
+{
+  "local": {
+    "host": "localhost",
+    "database": "<database_name>",
+    "username": "<username>",
+    "password": "<password>",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "encrypt": true
+    },
+    "operatorsAliases": false,
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 25000,
+      "idle": 10000
+    },
+    "logging": false
+  },
+  "int": {
+    "host": "<hostname>",
+    "database": "<database_name>",
+    "username": "<username>",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "encrypt": true
+    },
+    "operatorsAliases": false,
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 25000,
+      "idle": 10000
+    },
+    "logging": false
+  }
+}
