@@ -20,6 +20,6 @@
   "dependencies": {
     "@types/node": "^11.9.4",
     "@types/sequelize": "^4.27.37",
-    "sequelize": "^4.42.0"
+    "sequelize": "^5.15.1"
   }
 }
